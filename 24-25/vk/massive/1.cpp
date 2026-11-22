@@ -8,6 +8,9 @@ int main() {
     for (int i = 0; i < count; i++) {
         cout << "sixseveeen";
     }
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
+    }
     int n, cur, count = 0;
     vector<int> mas;
     cin >> n;
@@ -18,6 +21,9 @@ int main() {
         } else {
             mas.push_back(cur);
         }
+    }
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
     }
 
     for (int elem : mas) {
