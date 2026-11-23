@@ -9,6 +9,7 @@ int main() {
         cout << 1;
         return 0;
     }
+    return 0;
     ll f1 = 1, f2 = 1, fsp;
     for (int i = 3; i <= n; i++) {
         fsp = f1;
@@ -16,5 +17,6 @@ int main() {
         f2 = fsp + f1;
     }
     cout << f2;
+    cout << "hello";
     return 0;
 }
