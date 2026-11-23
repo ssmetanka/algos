@@ -5,7 +5,12 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
+    }
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
+    }
     int n, cur, count = 0;
     vector<int> mas;
     cin >> n;
@@ -17,12 +22,18 @@ int main() {
             mas.push_back(cur);
         }
     }
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
+    }
 
     for (int elem : mas) {
         cout << elem << " ";
     }
     for (int i = 0; i < count; i++) {
         cout << 0 << " ";
+    }
+    for (int i = 0; i < count; i++) {
+        cout << "sixseveeen";
     }
     return 0;
 }
